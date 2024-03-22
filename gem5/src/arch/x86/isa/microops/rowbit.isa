@@ -1,0 +1,105 @@
+
+def template RowOpDeclare {{
+    class %(class_name)s : public %(base_class)s
+    {
+    public:
+        %(class_name)s(ExtMachInst _machInst);
+
+        %(BasicExecDeclare)s
+
+        %(InitiateAccDeclare)s
+
+        %(CompleteAccDeclare)s
+
+    };
+}};
+
+def template RowOpConstructor {{
+    %(class_name)s::%(class_name)s(ExtMachInst _machInst) :
+        %(base_class)s("%(mnemonic)s", _machInst, %(op_class)s)
+    {
+        %(constructor)s
+    }
+}};
+
+def template RowOpExecute {{
+    Fault %(class_name)s::execute(CPU_EXEC_CONTEXT * xc,
+            Trace::InstRecord *traceData) const
+    {
+        Fault fault = NoFault;
+
+        %(op_decl)s;
+        %(op_rd)s;
+        %(rowop_data)s;
+
+        DPRINTF(X86, "%s: %x <- %x %(op)s %x executing\n", mnemonic, %(dst)s,
+            %(src1)s, %(src2)s);
+
+        fault = %(rowop_write)s;
+
+        return fault;
+    }
+}};
+
+def template RowOpInitiateAcc {{
+    Fault %(class_name)s::initiateAcc(CPU_EXEC_CONTEXT * xc,
+            Trace::InstRecord * traceData) const
+    {
+        Fault fault = NoFault;
+
+        %(op_decl)s;
+        %(op_rd)s;
+        %(rowop_data)s;
+
+        DPRINTF(X86, "%s: %x <- %x %(op)s %x initiated\n", mnemonic, %(dst)s,
+            %(src1)s, %(src2)s);
+
+        fault = %(rowop_write)s;
+
+        return fault;
+    }
+}};
+
+def template RowOpCompleteAcc {{
+    Fault %(class_name)s::completeAcc(PacketPtr pkt,
+            CPU_EXEC_CONTEXT * xc, Trace::InstRecord * traceData) const
+    {
+        Fault fault = NoFault;
+
+        %(op_decl)s;
+        %(op_rd)s;
+
+        DPRINTF(X86, "%s: %x <- %x %(op)s %x complete\n", mnemonic, %(dst)s,
+            %(src1)s, %(src2)s);
+
+        return fault;
+    }
+}};
+
+def template RowOpDecode {{
+    return new %(class_name)s(machInst);
+}};
+
+def format RowOp() {{
+
+    params = {
+        'dst': 'Rdi',
+        'src1': '0' if Name == 'ROWAP' else 'Rsi',
+        'src2': '0' if Name in {'ROWNOT', 'ROWAP', 'ROWAAP'} else 'Rdx',
+        'mem_flags': 'Request::UNCACHEABLE | Request::ROWOP',
+        'op': Name,
+        'unused': 'Mem = 0'
+    }
+
+    params['rowop_data'] = 'Request::RowOpPayload data = {Request::%(op)s, %(dst)s, %(src1)s, %(src2)s}'%params
+    params['rowop_write'] = 'xc->writeMem((uint8_t*)&data, sizeof(data), 0, %(mem_flags)s, NULL)'%params
+
+    iop = InstObjParams(name, Name, 'X86ISA::X86StaticInst', params)
+    header_output = RowOpDeclare.subst(iop)
+    decoder_output = RowOpConstructor.subst(iop)
+    decode_block = RowOpDecode.subst(iop)
+    exec_output = RowOpExecute.subst(iop)     \
+                + RowOpInitiateAcc.subst(iop) \
+                + RowOpCompleteAcc.subst(iop)
+
+}};

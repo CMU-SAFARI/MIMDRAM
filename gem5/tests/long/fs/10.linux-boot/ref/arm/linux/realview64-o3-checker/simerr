@@ -1,0 +1,99 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+warn: Highest ARM exception-level set to AArch32 but bootloader is for AArch64. Assuming you wanted these to match.
+warn: Sockets disabled, not accepting vnc client connections
+warn: Sockets disabled, not accepting terminal connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Existing EnergyCtrl, but no enabled DVFSHandler found.
+warn: SCReg: Access to unknown device dcc0:site0:pos0:fn7:dev0
+warn: Tried to read RealView I/O at offset 0x60 that doesn't exist
+warn: Tried to read RealView I/O at offset 0x48 that doesn't exist
+warn: 12461855003000: Instruction results do not match! (Values may not actually be integers) Inst: 0xffffffc00d07d780, checker: 0
+warn: 12461858210000: Instruction results do not match! (Values may not actually be integers) Inst: 0xffffffc00d07d7c0, checker: 0
+warn: Tried to read RealView I/O at offset 0x8 that doesn't exist
+warn: Tried to read RealView I/O at offset 0x48 that doesn't exist
+warn: 13846883856500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 13889111424500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 13890567287500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 13890857543500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14120809755000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14122306502500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14122718805500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14129885647500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14130112878000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14130333669000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14130937323000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14131157192000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14131378652000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14143275616000: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14210692350500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14453290384000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14453290599500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14461368009500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14469164155500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14469164395000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14469164601500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14477036010500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14477036254000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14477036493500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14477036700000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14482248599500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14482248839000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14488506207500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14488506438000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14498157332500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14498158077500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14498158308000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14498158514500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14509187190500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14509187421000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14509187627500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14518942903500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14518943414000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14518943648500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14518943879000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14518944085500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14534430251500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14534430481500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14539499143500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14539499377500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14539499607500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14546501559500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14546502303000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14546502533000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14546502739500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14556606981000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14556607490500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14556607724500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14556607954500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14556608161000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14619728573500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14619728789000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14678031922000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14678032489500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14678032742000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14678032990500: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x93
+warn: 14678033206000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14803922617500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804021218000: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804021536500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804745192000: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804745453000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x42
+warn: 14804745657500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804816537000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x91
+warn: 14804816747000: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804817018000: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf1
+warn: 14804817588500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804817844000: Instruction results do not match! (Values may not actually be integers) Inst: 0x90, checker: 0x91
+warn: 14804818067500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804818356500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804818865500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804819928000: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804820419500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14804820721500: Instruction results do not match! (Values may not actually be integers) Inst: 0xf0, checker: 0xf3
+warn: 14853183049500: Instruction results do not match! (Values may not actually be integers) Inst: 0x1, checker: 0
+warn: 14853362963500: Instruction results do not match! (Values may not actually be integers) Inst: 0, checker: 0x1
+warn: 14853363240000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14853363492000: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14853363736500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14853363998500: Instruction results do not match! (Values may not actually be integers) Inst: 0x40, checker: 0x41
+warn: 14853364228000: Instruction results do not match! (Values may not actually be integers) Inst: 0, checker: 0x1

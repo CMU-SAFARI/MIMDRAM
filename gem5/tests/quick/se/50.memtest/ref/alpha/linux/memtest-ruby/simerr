@@ -1,0 +1,81 @@
+warn: rounding error > tolerance
+    1.250000 rounded to 1
+warn: rounding error > tolerance
+    1.250000 rounded to 1
+warn: rounding error > tolerance
+    1.250000 rounded to 1
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+warn: Replacement policy updates recently became the responsibility of SLICC state machines. Make sure to setMRU() near callbacks in .sm files!
+system.cpu0: completed 10000 read, 5584 write accesses @762508
+system.cpu4: completed 10000 read, 5574 write accesses @764238
+system.cpu2: completed 10000 read, 5499 write accesses @766606
+system.cpu3: completed 10000 read, 5407 write accesses @769966
+system.cpu6: completed 10000 read, 5627 write accesses @771429
+system.cpu7: completed 10000 read, 5581 write accesses @773439
+system.cpu5: completed 10000 read, 5758 write accesses @783372
+system.cpu1: completed 10000 read, 5719 write accesses @784929
+system.cpu0: completed 20000 read, 11047 write accesses @1530543
+system.cpu7: completed 20000 read, 11107 write accesses @1533180
+system.cpu3: completed 20000 read, 10950 write accesses @1534683
+system.cpu6: completed 20000 read, 11194 write accesses @1535502
+system.cpu2: completed 20000 read, 11001 write accesses @1542405
+system.cpu5: completed 20000 read, 11318 write accesses @1544896
+system.cpu4: completed 20000 read, 11200 write accesses @1550910
+system.cpu1: completed 20000 read, 11300 write accesses @1556665
+system.cpu3: completed 30000 read, 16397 write accesses @2295657
+system.cpu2: completed 30000 read, 16594 write accesses @2305853
+system.cpu6: completed 30000 read, 16817 write accesses @2307161
+system.cpu0: completed 30000 read, 16652 write accesses @2307391
+system.cpu4: completed 30000 read, 16735 write accesses @2311189
+system.cpu7: completed 30000 read, 16751 write accesses @2314182
+system.cpu5: completed 30000 read, 16940 write accesses @2314755
+system.cpu1: completed 30000 read, 16881 write accesses @2333727
+system.cpu3: completed 40000 read, 22068 write accesses @3066226
+system.cpu4: completed 40000 read, 22266 write accesses @3071105
+system.cpu2: completed 40000 read, 22243 write accesses @3071593
+system.cpu5: completed 40000 read, 22338 write accesses @3072991
+system.cpu0: completed 40000 read, 22234 write accesses @3074112
+system.cpu6: completed 40000 read, 22357 write accesses @3078814
+system.cpu7: completed 40000 read, 22306 write accesses @3082874
+system.cpu1: completed 40000 read, 22431 write accesses @3111031
+system.cpu6: completed 50000 read, 27886 write accesses @3834085
+system.cpu3: completed 50000 read, 27514 write accesses @3834389
+system.cpu4: completed 50000 read, 27846 write accesses @3838179
+system.cpu2: completed 50000 read, 27730 write accesses @3839105
+system.cpu7: completed 50000 read, 27761 write accesses @3841365
+system.cpu5: completed 50000 read, 28029 write accesses @3855011
+system.cpu0: completed 50000 read, 27884 write accesses @3855221
+system.cpu1: completed 50000 read, 28029 write accesses @3872616
+system.cpu3: completed 60000 read, 32929 write accesses @4596558
+system.cpu4: completed 60000 read, 33251 write accesses @4604359
+system.cpu2: completed 60000 read, 33251 write accesses @4609070
+system.cpu6: completed 60000 read, 33602 write accesses @4611658
+system.cpu5: completed 60000 read, 33552 write accesses @4623475
+system.cpu7: completed 60000 read, 33412 write accesses @4626557
+system.cpu0: completed 60000 read, 33422 write accesses @4628259
+system.cpu1: completed 60000 read, 33486 write accesses @4645474
+system.cpu4: completed 70000 read, 38743 write accesses @5365823
+system.cpu3: completed 70000 read, 38597 write accesses @5375393
+system.cpu2: completed 70000 read, 38711 write accesses @5386294
+system.cpu6: completed 70000 read, 39263 write accesses @5390216
+system.cpu5: completed 70000 read, 39043 write accesses @5395080
+system.cpu7: completed 70000 read, 38983 write accesses @5398310
+system.cpu0: completed 70000 read, 38989 write accesses @5399705
+system.cpu1: completed 70000 read, 39150 write accesses @5425218
+system.cpu4: completed 80000 read, 44094 write accesses @6130494
+system.cpu3: completed 80000 read, 44230 write accesses @6148777
+system.cpu6: completed 80000 read, 44684 write accesses @6157555
+system.cpu5: completed 80000 read, 44551 write accesses @6161202
+system.cpu2: completed 80000 read, 44139 write accesses @6164119
+system.cpu0: completed 80000 read, 44724 write accesses @6175294
+system.cpu7: completed 80000 read, 44671 write accesses @6179013
+system.cpu1: completed 80000 read, 44749 write accesses @6192724
+system.cpu4: completed 90000 read, 49488 write accesses @6869712
+system.cpu6: completed 90000 read, 50150 write accesses @6920477
+system.cpu2: completed 90000 read, 49757 write accesses @6931420
+system.cpu3: completed 90000 read, 50041 write accesses @6935428
+system.cpu0: completed 90000 read, 50304 write accesses @6951052
+system.cpu5: completed 90000 read, 50260 write accesses @6951232
+system.cpu7: completed 90000 read, 50274 write accesses @6961816
+system.cpu1: completed 90000 read, 50419 write accesses @6968220
+system.cpu4: completed 100000 read, 54873 write accesses @7628407
