@@ -7,7 +7,7 @@ This repository contains the simulation infrastructure used to evaluate MIMDRAM.
 
 
 ## Citation
-Please cite the following preliminary version of our paper if you find this repository useful:
+Please cite the following if you find this repository useful:
 
 Geraldo F. Oliveira, Ataberk Olgun, Abdullah Giray Yağlıkçı, F. Nisa Bostancı, Juan Gómez-Luna, Saugata Ghose, Onur Mutlu, "[MIMDRAM: An End-to-End Processing-Using-DRAM System for High-Throughput, Energy-Efficient and Programmer-Transparent Multiple-Instruction Multiple-Data Computing](https://arxiv.org/pdf/2402.19080.pdf)", in HPCA, 2024.
 
