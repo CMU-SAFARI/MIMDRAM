@@ -83,9 +83,9 @@ cd ..
 After building gem5 and the workloads, you can execute a simulation as follows:
 ```
 cd gem5/
-./build/X86/gem5.opt configs/example/se.py --cpu-type=detailed --caches --l2cache --mem-type=DDR4_2400_x64 --mem-size=8192MB -c ABSOLUT_PATH/bitweave-buddy.exe -o "10 1"
+./build/X86/gem5.opt configs/example/se.py --cpu-type=detailed --caches --l2cache --mem-type=DDR4_2400_x64 --mem-size=8192MB -c ABSOLUTE_PATH/bitweave-buddy.exe -o "10 1"
 ```
-Note that you *must* specify the *absolute path* (ABSOLUT_PATH) to the folder containing the compiled workloads.
+Note that you *must* specify the *absolute path* (ABSOLUTE_PATH) to the folder containing the compiled workloads.
 
 ## Getting Help
 If you have any suggestions for improvement, please contact geraldo dot deoliveira at safari dot ethz dot ch.
