@@ -15,7 +15,7 @@ Bibtex entry for citation:
 
 ```
 @inproceedings{mimdram,
-    author = "Oliveira, Geraldo F and Olgun, Ataberk and Yaglik{\c{c}}i, A. Giray Gregorio and Bostanci, Nisa and G{\'o}mez-Luna, Juan and Ghose, Saugata and Mutlu, Onur",
+    author = "Oliveira, Geraldo F and Olgun, Ataberk and Yaglik{\c{c}}i, A. Giray and Bostanci, Nisa and G{\'o}mez-Luna, Juan and Ghose, Saugata and Mutlu, Onur",
     title = "{MIMDRAM: An End-to-End Processing-Using-DRAM System for High-Throughput, Energy-Efficient and Programmer-Transparent Multiple-Instruction Multiple-Data Computing}",
     booktitle = "HPCA",
     year = "2024"
