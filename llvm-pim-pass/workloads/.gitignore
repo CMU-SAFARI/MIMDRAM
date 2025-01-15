@@ -1,0 +1,6 @@
+*
+!debug
+!src
+!src/*
+!Makefile
+!.gitignore
