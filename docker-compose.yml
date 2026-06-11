@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mimdram:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mimdram:latest
+    container_name: mimdram-simulator
+    volumes:
+      - ./results:/gem5/m5out
+    working_dir: /
+    stdin_open: true
+    tty: true

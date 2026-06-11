@@ -59,6 +59,12 @@ sudo apt install build-essential git m4 scons zlib1g zlib1g-dev \
 main.Append(CCFLAGS=['-DPROTOBUF_INLINE_NOT_IN_HEADERS=0'])
 ```
 
+* Or use Docker instead of installing dependencies manually:
+```bash
+docker compose build
+docker compose run --rm mimdram /bin/bash
+```
+
 ### Step 1: Installing the Simulator
 To install the simulator:
 ```
@@ -71,7 +77,7 @@ cd ..
 To compile a workload, you need to link the source code with the **../gem5/util/m5** folder, as follows (we use the bitweave-buddy.c file as an example):
 ```
 cd microworkloads/
-gcc -**static -std=c99 -O3 -msse2 -I ../gem5/util/m5 m5op_x86.S rowop.S** bitweave-buddy.c -o bitweave-buddy.exe
+gcc -static -std=c99 -O3 -msse2 -I ../gem5/util/m5 m5op_x86.S rowop.S bitweave-buddy.c -o bitweave-buddy.exe
 cd .. 
 ```
 

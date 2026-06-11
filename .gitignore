@@ -1,0 +1,11 @@
+# ignore build artifacts
+microworkloads/*.o
+microworkloads/*.a
+microworkloads/*.so
+microworkloads/*.out
+microworkloads/*.exe
+
+# ignore generated files
+.vscode/
+
+results/
